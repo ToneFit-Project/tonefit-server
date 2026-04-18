@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: tonefit-server
+  profiles:
+    default: local
+  jpa:
+    hibernate:
+      ddl-auto: update
